@@ -1,0 +1,211 @@
+/* Sitara scrapbook aesthetic */
+
+.App {
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Gingham background */
+.bg-gingham {
+  background-color: #EAF1F8;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.85) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255,255,255,0.85) 50%, transparent 50%);
+  background-size: 40px 40px, 40px 40px;
+}
+
+.bg-gingham-pink {
+  background-color: #FBEAEF;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.85) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255,255,255,0.85) 50%, transparent 50%);
+  background-size: 40px 40px, 40px 40px;
+}
+
+.bg-paper {
+  background-color: #FBF6E9;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(0,0,0,0.03) 0px, transparent 2px),
+    radial-gradient(circle at 70% 60%, rgba(0,0,0,0.03) 0px, transparent 2px),
+    radial-gradient(circle at 40% 80%, rgba(0,0,0,0.03) 0px, transparent 2px);
+  background-size: 120px 120px;
+}
+
+.bg-notebook {
+  background-color: #FBF6E9;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 31px,
+    #E9D9C4 31px,
+    #E9D9C4 32px
+  );
+}
+
+/* Paper card with jagged/torn edge illusion via border + shadow */
+.paper-card {
+  background: #FBF6E9;
+  box-shadow:
+    0 1px 0 rgba(0,0,0,0.04),
+    0 8px 24px rgba(30,42,74,0.08),
+    inset 0 0 60px rgba(212,178,140,0.06);
+  position: relative;
+}
+
+.paper-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 10% 20%, rgba(0,0,0,0.02) 0px, transparent 3px),
+    radial-gradient(circle at 80% 40%, rgba(0,0,0,0.02) 0px, transparent 3px),
+    radial-gradient(circle at 30% 90%, rgba(0,0,0,0.02) 0px, transparent 3px);
+  pointer-events: none;
+}
+
+/* Washi tape */
+.tape {
+  position: absolute;
+  width: 90px;
+  height: 24px;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-3deg);
+  background: rgba(247, 215, 116, 0.7);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  z-index: 3;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 6px,
+    rgba(255,255,255,0.25) 6px,
+    rgba(255,255,255,0.25) 12px
+  );
+}
+
+.tape.tape-left { left: 18%; transform: translateX(0) rotate(-8deg); }
+.tape.tape-right { left: auto; right: 18%; transform: translateX(0) rotate(6deg); }
+
+/* Text styles */
+.font-handwrite { font-family: 'Caveat', cursive; }
+.font-type { font-family: 'Special Elite', 'Courier New', monospace; }
+.font-display { font-family: 'Alfa Slab One', 'Fraunces', serif; letter-spacing: 0.02em; }
+.font-serif-b { font-family: 'Fraunces', 'Playfair Display', serif; }
+.font-cute { font-family: 'Grandstander', 'Fraunces', sans-serif; }
+
+/* Section text hero: sky-blue outline effect similar to OG */
+.hero-title {
+  color: #A9C6E3;
+  text-shadow:
+    2px 2px 0 rgba(30,42,74,0.15),
+    4px 4px 0 rgba(30,42,74,0.05);
+  -webkit-text-stroke: 1px rgba(30,42,74,0.15);
+}
+
+/* Small doodle spin/float */
+@keyframes floaty {
+  0%, 100% { transform: translateY(0) rotate(var(--r, 0deg)); }
+  50%      { transform: translateY(-8px) rotate(calc(var(--r, 0deg) + 4deg)); }
+}
+.floaty { animation: floaty 5s ease-in-out infinite; }
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.spin-slow { animation: spinSlow 18s linear infinite; }
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-2deg); }
+  50%      { transform: rotate(2deg); }
+}
+.wiggle { animation: wiggle 3.5s ease-in-out infinite; transform-origin: center; }
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.reveal { animation: fadeInUp 0.9s ease-out both; }
+
+/* Pink line divider like OG */
+.pink-divider {
+  height: 4px;
+  background: repeating-linear-gradient(
+    90deg,
+    #F4B6C2 0px,
+    #F4B6C2 14px,
+    transparent 14px,
+    transparent 24px
+  );
+}
+
+/* Sticker button */
+.sticker-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  background: #FBF6E9;
+  border: 2px solid #1E2A4A;
+  border-radius: 999px;
+  font-family: 'Special Elite', monospace;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #1E2A4A;
+  box-shadow: 3px 3px 0 #1E2A4A;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+.sticker-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 #1E2A4A;
+  background: #F7D774;
+}
+.sticker-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #1E2A4A;
+}
+
+.sticker-btn-pink { background: #F4B6C2; }
+.sticker-btn-pink:hover { background: #F79BB0; }
+
+/* Photo polaroid */
+.polaroid {
+  background: #FBF6E9;
+  padding: 10px 10px 40px 10px;
+  box-shadow: 0 6px 20px rgba(30,42,74,0.15);
+  position: relative;
+}
+.polaroid img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* Underline scribble */
+.underline-scribble {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 8'><path d='M2 5 Q 30 -1 60 4 T 118 3' stroke='%23F4B6C2' stroke-width='3' fill='none' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 100% 8px;
+  padding-bottom: 6px;
+}
+
+/* Grain overlay */
+.grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.35;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.1  0 0 0 0 0.1  0 0 0 0 0.1  0 0 0 0.08 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+.rotate-slight-l { transform: rotate(-2deg); }
+.rotate-slight-r { transform: rotate(2deg); }
+
+/* Marquee */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.marquee-track { animation: marquee 30s linear infinite; }

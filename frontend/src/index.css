@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Grandstander:wght@400;700;900&family=Special+Elite&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Special Elite', 'Courier New', monospace;
+  color: #1E2A4A;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FBF6E9;
+}
+
+::selection { background: #F7D774; color: #1E2A4A; }
+
+code { font-family: 'Special Elite', monospace; }
+
+@layer base {
+  :root {
+    --background: 46 60% 95%;
+    --foreground: 224 42% 20%;
+    --card: 46 60% 95%;
+    --card-foreground: 224 42% 20%;
+    --popover: 46 60% 95%;
+    --popover-foreground: 224 42% 20%;
+    --primary: 224 42% 20%;
+    --primary-foreground: 46 60% 95%;
+    --secondary: 340 60% 88%;
+    --secondary-foreground: 224 42% 20%;
+    --muted: 40 30% 90%;
+    --muted-foreground: 224 20% 40%;
+    --accent: 46 88% 72%;
+    --accent-foreground: 224 42% 20%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 46 60% 95%;
+    --border: 224 20% 85%;
+    --input: 224 20% 85%;
+    --ring: 224 42% 30%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body { @apply text-foreground; }
+}
