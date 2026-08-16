@@ -37,10 +37,10 @@ const Hero = () => {
           </div>
 
           <p className="font-type text-center text-[15px] md:text-[17px] leading-[2] max-w-2xl mx-auto text-[#1E2A4A] reveal" style={{ animationDelay: '.35s' }}>
-            Just a bunch of students who believe every child deserves a fair start. Sitara is a
-            non-profitable organization that focuses on helping underprivileged children build a
-            better future. We strongly believe that talent exists everywhere—opportunity does
-            not—and its work is all about closing that gap.
+            Our team has initiated a project called Sitara, aimed at supporting underprivileged communities. Through this initiative, we plan to organize workshops and outreach activities to provide essential support to those in need. These efforts will include distributing nutritious food, stationery for educational support, sanitary pads for menstrual hygiene, and other basic necessities.
+In addition, we will also distribute eco-friendly products to encourage sustainable living and reduce environmental waste. By promoting environmentally responsible alternatives, we aim to raise awareness about sustainability while meeting everyday needs.
+We also welcome donations to support this initiative. If you choose to contribute financially, we kindly request that you share a screenshot of the transaction for record-keeping and transparency purposes.
+– Swasti Bansal (founder)
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-4 reveal" style={{ animationDelay: '.5s' }}>

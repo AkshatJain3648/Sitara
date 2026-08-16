@@ -85,12 +85,12 @@ export const TESTIMONIALS = [
 ];
 
 export const FUNDRAISER = {
-  title: 'Tote Bag Painting Fundraiser',
-  date: 'Sunday, 26 April 2026',
-  from: '12 PM onwards',
+  title: 'Fundraiser collaboration with Yankee doodles',
+  date: 'Sunday, 16 August 2026',
+  from: '12 PM to 5PM',
   earlyBird: '\u20B9320',
   regular: '\u20B9400',
-  locationNote: 'Location reveal to ticket holders only',
+  locationNote: 'Mavericks',
 };
 
 export const DONATION = {

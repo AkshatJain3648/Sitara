@@ -15,9 +15,9 @@ const Fundraiser = () => {
         <div className="text-center mb-14">
           <p className="font-handwrite text-3xl text-[#7A4E7E] rotate-[-2deg]">save the date♡</p>
           <h2 className="font-serif-b italic text-4xl md:text-6xl text-[#7A4E7E] mt-2">
-            totebag<span className="font-display text-[#F4B6C2]">painting</span>
+            <span className="font-display text-[#F4B6C2]">Fundraiser Collaboration with</span>
           </h2>
-          <h3 className="font-display text-4xl md:text-6xl text-[#7A4E7E] tracking-wider">FUNDRAISER</h3>
+          <h3 className="font-display text-4xl md:text-6xl text-[#7A4E7E] tracking-wider">YANKEE DOODLES</h3>
         </div>
 
         <div className="grid md:grid-cols-2 gap-10 items-stretch">
