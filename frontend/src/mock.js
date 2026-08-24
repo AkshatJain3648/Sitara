@@ -60,22 +60,30 @@ export const FUND_ALLOCATIONS = [
 ];
 
 export const IMPACT_STATS = [
-  { number: '250+', label: 'Kids reached' },
-  { number: '18', label: 'Workshops hosted' },
-  { number: '₹1.2L', label: 'Funds raised' },
+  { number: '50+', label: 'Kids reached' },
+  { number: '2', label: 'Workshops hosted' },
+  { number: '₹12K', label: 'Funds raised' },
   { number: '40+', label: 'Student volunteers' },
 ];
 
 export const INSTAGRAM_POSTS = [
-  { img: 'https://images.pexels.com/photos/7025974/pexels-photo-7025974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', caption: 'tote bag day was a WIN', postUrl: 'https://instagram.com/sitara.newdawn' },
-  { img: 'https://images.pexels.com/photos/15119089/pexels-photo-15119089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', caption: 'lil dreamers <3', postUrl: 'https://instagram.com/sitara.newdawn' },
-  { img: 'https://images.pexels.com/photos/13755604/pexels-photo-13755604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', caption: 'paint everywhere. worth it.', postUrl: 'https://instagram.com/sitara.newdawn' },
-  { img: 'https://images.pexels.com/photos/5608541/pexels-photo-5608541.jpeg', caption: 'story time :)', postUrl: 'https://instagram.com/sitara.newdawn' },
-  { img: 'https://images.pexels.com/photos/8535598/pexels-photo-8535598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', caption: 'classroom joy', postUrl: 'https://instagram.com/sitara.newdawn' },
-  { img: 'https://images.pexels.com/photos/6437471/pexels-photo-6437471.jpeg', caption: 'books > everything', postUrl: 'https://instagram.com/sitara.newdawn' },
-  { img: 'https://images.unsplash.com/photo-1609446154807-d56805f0e007?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwzfHxjaGlsZHJlbiUyMGNyYWZ0aW5nfGVufDB8fHx8MTc4NDY2NDc4OXww&ixlib=rb-4.1.0&q=85', caption: 'making, making, making', postUrl: 'https://instagram.com/sitara.newdawn' },
-  { img: 'https://images.unsplash.com/photo-1594913495702-0872744c6968?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHw0fHxjaGlsZHJlbiUyMGNyYWZ0aW5nfGVufDB8fHx8MTc4NDY2NDc4OXww&ixlib=rb-4.1.0&q=85', caption: 'beaded bracelets ~', postUrl: 'https://instagram.com/sitara.newdawn' },
-  { img: 'https://images.pexels.com/photos/30124240/pexels-photo-30124240.jpeg', caption: 'together > alone', postUrl: 'https://instagram.com/sitara.newdawn' },
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-e312e91c-bdca-4275-b817-9e57f2858f37.jpg', caption: 'tote bag day was a WIN', postUrl: 'https://instagram.com/sitara.newdawn' },
+
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-668d37fb-53ee-462b-aa16-8d046665a3d9.jpg', caption: 'lil dreamers <3', postUrl: 'https://instagram.com/sitara.newdawn' },
+
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-a636dcac-113f-4e17-9c53-448c5c5ee6bb.jpg', caption: 'paint everywhere. worth it.', postUrl: 'https://instagram.com/sitara.newdawn' },
+
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-2ea00f24-95ae-419f-87d2-d60a51bde741.jpg', caption: 'story time :)', postUrl: 'https://instagram.com/sitara.newdawn' },
+
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-1b08538e-3459-4cc6-9e1c-b3803c8eb3ea.jpg', caption: 'classroom joy', postUrl: 'https://instagram.com/sitara.newdawn' },
+
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-bff3f4e2-3060-4367-a1f9-cb70d37d1b37.jpg', caption: 'books > everything', postUrl: 'https://instagram.com/sitara.newdawn' },
+
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-3dce9158-19d8-43f0-b0b3-86c231612199.jpg', caption: 'making, making, making', postUrl: 'https://instagram.com/sitara.newdawn' },
+
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-e20f57c6-4526-48a1-a215-85d62b8a32d5.jpg', caption: 'beaded bracelets ~', postUrl: 'https://instagram.com/sitara.newdawn' },
+
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-961294cb-bb94-4e12-a9ad-b2171837caf9.jpg', caption: 'together > alone', postUrl: 'https://instagram.com/sitara.newdawn' },
 ];
 
 export const TESTIMONIALS = [
