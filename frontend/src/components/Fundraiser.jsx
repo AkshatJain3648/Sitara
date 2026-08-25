@@ -40,9 +40,9 @@ const Fundraiser = () => {
               <div className="flex items-center gap-3 font-type text-[#1E2A4A] mb-3">
                 <Calendar className="w-5 h-5" /><span>{FUNDRAISER.date}</span>
               </div>
-              <div className="flex items-center gap-3 font-type text-[#1E2A4A] mb-3">
+              {/* <div className="flex items-center gap-3 font-type text-[#1E2A4A] mb-3">
                 <Clock className="w-5 h-5" /><span>from {FUNDRAISER.from}</span>
-              </div>
+              </div> */}
               <div className="flex items-center gap-3 font-type text-[#1E2A4A] mb-6">
                 <MapPin className="w-5 h-5" /><span>{FUNDRAISER.locationNote}</span>
               </div>

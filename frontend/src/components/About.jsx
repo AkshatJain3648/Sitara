@@ -7,19 +7,21 @@ const FOUNDERS = [
     name: 'Swasti Bansal',
     role: 'Founder',
     location: 'Meerut, IN',
-    image: 'https://cdn.phototourl.com/free/2026-08-22-e312e91c-bdca-4275-b817-9e57f2858f37.jpg',
-    bio: 'Descriptionn/bio',
+    image: 'https://cdn.phototourl.com/free/2026-08-25-ff4a3052-ca82-4c93-aa04-4025363a52e4.jpg',
+    bio: 'She is deeply dedicated to her work and driven by a passionate desire to create a meaningful change in society. Balancing a creative mind with a sweet, loving heart, she pours her empathy into uplifting others and giving them the confidence to shine.',
     accent: '#F7D774',
     handle: '@sitara.newdawn',
+    quote:'Sitara NewDawn: Where dreams learn to shine.',
   },
   {
     name: 'Aadhya Aggarwal',
     role: 'Co-founder',
     location: 'Meerut, IN',
-    image: 'https://cdn.phototourl.com/free/2026-08-22-668d37fb-53ee-462b-aa16-8d046665a3d9.jpg',
-    bio: 'DESCRIPTION/bio',
+    image: 'https://cdn.phototourl.com/free/2026-08-25-034144c9-11ef-42d0-9972-328f1def4573.jpg',
+    bio: 'An optimist who loves turning doubt into confidence. She is an  empathetic soul, making sure her people always feel seen, supported, and valued.',
     accent: '#C9B6E4',
     handle: '@sitara.newdawn',
+    quote:'A fresh morning, a fair chance, a brighter future.'
   },
 ];
 
@@ -44,7 +46,7 @@ const FounderCard = ({ founder, index }) => {
             </div>
             <div className="founder-visual founder-visual-back" style={{ backgroundColor: founder.accent }}>
               <span className="founder-heart" aria-hidden="true">♥</span>
-              <p className="font-handwrite text-2xl md:text-3xl leading-tight text-[#1E2A4A] max-w-[260px] text-center">QUOTE IF YOU WANT ANY</p>
+              <p className="font-handwrite text-2xl md:text-3xl leading-tight text-[#1E2A4A] max-w-[260px] text-center">{founder.quote}</p>
               <button type="button" className="founder-flip-button" onClick={toggleFlip} aria-label={`Flip back to see ${founder.name}'s photo`}>
                 <RotateCcw className="w-3 h-3" /> flip back
               </button>

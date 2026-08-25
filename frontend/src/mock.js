@@ -67,23 +67,23 @@ export const IMPACT_STATS = [
 ];
 
 export const INSTAGRAM_POSTS = [
-  { img: 'https://cdn.phototourl.com/free/2026-08-22-e312e91c-bdca-4275-b817-9e57f2858f37.jpg', caption: 'tote bag day was a WIN', postUrl: 'https://instagram.com/sitara.newdawn' },
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-e312e91c-bdca-4275-b817-9e57f2858f37.jpg', caption: 'handmade love', postUrl: 'https://instagram.com/sitara.newdawn' },
 
-  { img: 'https://cdn.phototourl.com/free/2026-08-22-668d37fb-53ee-462b-aa16-8d046665a3d9.jpg', caption: 'lil dreamers <3', postUrl: 'https://instagram.com/sitara.newdawn' },
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-668d37fb-53ee-462b-aa16-8d046665a3d9.jpg', caption: 'Creative Chaos', postUrl: 'https://instagram.com/sitara.newdawn' },
 
-  { img: 'https://cdn.phototourl.com/free/2026-08-22-a636dcac-113f-4e17-9c53-448c5c5ee6bb.jpg', caption: 'paint everywhere. worth it.', postUrl: 'https://instagram.com/sitara.newdawn' },
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-a636dcac-113f-4e17-9c53-448c5c5ee6bb.jpg', caption: 'Little Moments', postUrl: 'https://instagram.com/sitara.newdawn' },
 
-  { img: 'https://cdn.phototourl.com/free/2026-08-22-2ea00f24-95ae-419f-87d2-d60a51bde741.jpg', caption: 'story time :)', postUrl: 'https://instagram.com/sitara.newdawn' },
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-2ea00f24-95ae-419f-87d2-d60a51bde741.jpg', caption: 'Good times', postUrl: 'https://instagram.com/sitara.newdawn' },
 
-  { img: 'https://cdn.phototourl.com/free/2026-08-22-1b08538e-3459-4cc6-9e1c-b3803c8eb3ea.jpg', caption: 'classroom joy', postUrl: 'https://instagram.com/sitara.newdawn' },
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-1b08538e-3459-4cc6-9e1c-b3803c8eb3ea.jpg', caption: 'Color Therapy', postUrl: 'https://instagram.com/sitara.newdawn' },
 
-  { img: 'https://cdn.phototourl.com/free/2026-08-22-bff3f4e2-3060-4367-a1f9-cb70d37d1b37.jpg', caption: 'books > everything', postUrl: 'https://instagram.com/sitara.newdawn' },
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-bff3f4e2-3060-4367-a1f9-cb70d37d1b37.jpg', caption: 'Snack Break', postUrl: 'https://instagram.com/sitara.newdawn' },
 
-  { img: 'https://cdn.phototourl.com/free/2026-08-22-3dce9158-19d8-43f0-b0b3-86c231612199.jpg', caption: 'making, making, making', postUrl: 'https://instagram.com/sitara.newdawn' },
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-3dce9158-19d8-43f0-b0b3-86c231612199.jpg', caption: 'Making Memories', postUrl: 'https://instagram.com/sitara.newdawn' },
 
-  { img: 'https://cdn.phototourl.com/free/2026-08-22-e20f57c6-4526-48a1-a215-85d62b8a32d5.jpg', caption: 'beaded bracelets ~', postUrl: 'https://instagram.com/sitara.newdawn' },
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-e20f57c6-4526-48a1-a215-85d62b8a32d5.jpg', caption: 'Beaded Bonds', postUrl: 'https://instagram.com/sitara.newdawn' },
 
-  { img: 'https://cdn.phototourl.com/free/2026-08-22-961294cb-bb94-4e12-a9ad-b2171837caf9.jpg', caption: 'together > alone', postUrl: 'https://instagram.com/sitara.newdawn' },
+  { img: 'https://cdn.phototourl.com/free/2026-08-22-961294cb-bb94-4e12-a9ad-b2171837caf9.jpg', caption: 'Together Always', postUrl: 'https://instagram.com/sitara.newdawn' },
 ];
 
 export const TESTIMONIALS = [
@@ -94,11 +94,11 @@ export const TESTIMONIALS = [
 
 export const FUNDRAISER = {
   title: 'Fundraiser collaboration with Yankee doodles',
-  date: 'Sunday, 16 August 2026',
+  date: 'To be announced',
   from: '12 PM to 5PM',
   earlyBird: '\u20B9320',
   regular: '\u20B9400',
-  locationNote: 'Mavericks',
+  locationNote: 'Will be revealed soon',
 };
 
 export const DONATION = {
