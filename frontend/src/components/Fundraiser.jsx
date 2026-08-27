@@ -15,7 +15,7 @@ const Fundraiser = () => {
         <div className="text-center mb-14">
           <p className="font-handwrite text-3xl text-[#7A4E7E] rotate-[-2deg]">save the date♡</p>
           <h2 className="font-serif-b italic text-4xl md:text-6xl text-[#7A4E7E] mt-2">
-            <span className="font-display text-[#F4B6C2]">Fundraiser Collaboration with</span>
+            <span className="font-display text-[#F4B6C2]">Doodling Dreams into reality with</span>
           </h2>
           <h3 className="font-display text-4xl md:text-6xl text-[#7A4E7E] tracking-wider">YANKEE DOODLES</h3>
         </div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Instagram, Mail, MapPin, RotateCcw } from 'lucide-react';
+import { Instagram, Mail, MapPin, Phone, RotateCcw } from 'lucide-react';
 import { FlowerDoodle, SparkleDoodle, StarDoodle } from './Doodles';
 
 const FOUNDERS = [
@@ -12,6 +12,8 @@ const FOUNDERS = [
     accent: '#F7D774',
     handle: '@sitara.newdawn',
     quote:'Sitara NewDawn: Where dreams learn to shine.',
+    email: 'swasti@icloud.com',
+    phone: '+91 90125 67667',
   },
   {
     name: 'Aadhya Aggarwal',
@@ -21,7 +23,9 @@ const FOUNDERS = [
     bio: 'An optimist who loves turning doubt into confidence. She is an  empathetic soul, making sure her people always feel seen, supported, and valued.',
     accent: '#C9B6E4',
     handle: '@sitara.newdawn',
-    quote:'A fresh morning, a fair chance, a brighter future.'
+    quote:'A fresh morning, a fair chance, a brighter future.',
+    email: 'aadhyaaggarwal523@gmail.com',
+    phone: '+91 72172 26750',
   },
 ];
 
@@ -57,7 +61,7 @@ const FounderCard = ({ founder, index }) => {
         <div className="founder-basic-info">
           <div className="flex items-center justify-between gap-3">
             <h3 className="font-handwrite text-2xl text-[#1E2A4A]">{founder.name} <span aria-hidden="true">✦</span></h3>
-            <span className="font-type text-[10px] text-[#1E2A4A]/60">tap to flip</span>
+            <span className="font-type text-[10px] text-[#1E2A4A]/60"></span>
           </div>
           <div className="founder-rule" />
           <div className="flex items-center gap-2 font-handwrite text-lg text-[#7A4E7E]">
@@ -68,7 +72,8 @@ const FounderCard = ({ founder, index }) => {
           <p className="font-type text-[12px] leading-[1.8] text-[#1E2A4A]/85 mt-2 mb-[-5px]">{founder.bio}</p>
           <div className="flex flex-wrap gap-3 mt-8">
             <a href="https://instagram.com/sitara.newdawn" target="_blank" rel="noreferrer" className="founder-contact-link"><Instagram className="w-3.5 h-3.5" /> {founder.handle}</a>
-            <a href="mailto:sitara.newdawn@gmail.com" className="founder-contact-link"><Mail className="w-3.5 h-3.5" /> write to us</a>
+            <a href={founder.email} className="founder-contact-link"><Mail className="w-3.5 h-3.5" /> write to us</a>
+            <a href={`tel:${founder.phone.replace(/\s/g, '')}`} className="founder-contact-link"><Phone className="w-3.5 h-3.5" /> {founder.phone}</a>
           </div>
         </div>
       </div>
